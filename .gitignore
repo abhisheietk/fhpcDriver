@@ -1,0 +1,11 @@
+/bin/
+/depend/
+/obj/
+/lib/
+*.~
+*.*~
+*~
+*.cmd
+*.symvers
+*.o
+*.ko
