@@ -22,7 +22,7 @@
 #include <linux/pagemap.h>
 #include <linux/spinlock.h>
 #include <linux/list.h>
-#include <asm/scatterlist.h>
+#include <linux/scatterlist.h>
 #include <linux/vmalloc.h>
 #include <linux/stat.h>
 #include <linux/interrupt.h>
