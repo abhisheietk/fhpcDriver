@@ -9,3 +9,6 @@
 *.symvers
 *.o
 *.ko
+*.order
+*.mod
+*.mod.c
