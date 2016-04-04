@@ -134,7 +134,8 @@ static void unix_process_msgfd(UNIXSockData * s, struct msghdr *msg)
                 || cmsg->cmsg_type != SCM_RIGHTS)
             continue;
 
-        fd = *((int *)CMSG_DATA(cmsg));
+	//printf("%d", CMSG_DATA(cmsg));
+        fd = (int)*((unsigned char *)CMSG_DATA(cmsg));
         if (fd < 0)
             continue;
 

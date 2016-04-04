@@ -12,3 +12,6 @@
 *.order
 *.mod
 *.mod.c
+/Ne_Ivshmem/host/ivshmem_server
+/Ne_Ivshmem/host/ne_ivshmem_send_qeventfd
+/Ne_Ivshmem/host/ne_ivshmem_shm_host_usr
