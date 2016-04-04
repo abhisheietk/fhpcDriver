@@ -15,3 +15,4 @@
 /Ne_Ivshmem/host/ivshmem_server
 /Ne_Ivshmem/host/ne_ivshmem_send_qeventfd
 /Ne_Ivshmem/host/ne_ivshmem_shm_host_usr
+ne_ivshmem_shm_guest_usr
